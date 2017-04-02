@@ -54,7 +54,6 @@ public class HexGrid : MonoBehaviour {
 		cell.coordinates = HexCoordinates.FromOffsetCoordinates(x, z);
 		cell.color = defaultColor;
 
-		// Last update for the night
 		// Colin Menz - 4 / 2 / 17
 		if(x > 0)
 		{
